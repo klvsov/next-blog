@@ -13,6 +13,7 @@ const fetchData = async () => {
   });
 
   if (!response.ok) throw new Error("Unable to fetch posts");
+  await new Promise((resolve) => setTimeout(resolve, 5000));
   return await response.json();
 };
 
