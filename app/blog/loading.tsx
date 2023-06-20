@@ -1,5 +1,9 @@
 const Loading = () => {
-  return <h1>Loading data...</h1>;
+  return (
+    <div className="loaderWrapper">
+      <span className="loader" />
+    </div>
+  );
 };
 
 export default Loading;

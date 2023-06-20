@@ -13,7 +13,6 @@ const fetchData = async () => {
   });
 
   if (!response.ok) throw new Error("Unable to fetch posts");
-
   return await response.json();
 };
 
