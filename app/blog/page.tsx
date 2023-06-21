@@ -1,7 +1,5 @@
-// import Posts from "@/components/PostsStore";
 import Posts from "@/components/PostsSWR";
 import SearchBar from "@/components/SearchBarSWR";
-// import SearchBar from "@/components/SearchBarStore";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
